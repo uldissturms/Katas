@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KataFizzBuzz", "KataFizzBuz
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckoutKata", "CheckoutKata\CheckoutKata.csproj", "{43AF0BF7-D87D-4C17-BE78-D668E783CEB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeFactorsKata", "PrimeFactorsKata\PrimeFactorsKata.csproj", "{CE77BC55-DA6B-4599-A7C6-500D270D876E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{43AF0BF7-D87D-4C17-BE78-D668E783CEB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43AF0BF7-D87D-4C17-BE78-D668E783CEB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43AF0BF7-D87D-4C17-BE78-D668E783CEB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE77BC55-DA6B-4599-A7C6-500D270D876E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE77BC55-DA6B-4599-A7C6-500D270D876E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE77BC55-DA6B-4599-A7C6-500D270D876E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE77BC55-DA6B-4599-A7C6-500D270D876E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

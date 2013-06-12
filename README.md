@@ -18,3 +18,8 @@ KataFizzBuzz
 ====================
 
 http://codingdojo.org/cgi-bin/wiki.pl?KataFizzBuzz
+
+PrimeFactorsKata
+====================
+
+http://butunclebob.com/ArticleS.UncleBob.ThePrimeFactorsKata
