@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckoutKata", "CheckoutKat
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimeFactorsKata", "PrimeFactorsKata\PrimeFactorsKata.csproj", "{CE77BC55-DA6B-4599-A7C6-500D270D876E}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RomanNumeralsKata_FSharp", "RomanNumeralsKata_FSharp\RomanNumeralsKata_FSharp.fsproj", "{D5E998E4-21F0-444D-BD84-0774CD7A7B82}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +39,10 @@ Global
 		{CE77BC55-DA6B-4599-A7C6-500D270D876E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE77BC55-DA6B-4599-A7C6-500D270D876E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE77BC55-DA6B-4599-A7C6-500D270D876E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5E998E4-21F0-444D-BD84-0774CD7A7B82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5E998E4-21F0-444D-BD84-0774CD7A7B82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5E998E4-21F0-444D-BD84-0774CD7A7B82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5E998E4-21F0-444D-BD84-0774CD7A7B82}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
