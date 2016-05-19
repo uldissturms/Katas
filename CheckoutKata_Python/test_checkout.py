@@ -1,4 +1,4 @@
-import checkout
+from checkout import *
 
 def test_price():
     yield check_price, "A", 50
@@ -14,5 +14,5 @@ def check_price(items, expected_price):
     assert price(items) == expected_price
 
 def price(items):
-    basket = reduce(checkout.scan, list(items), checkout.new())
-    return checkout.total(basket)
+    basket = reduce(scan, list(items), new())
+    return total(basket)
