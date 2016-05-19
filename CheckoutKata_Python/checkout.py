@@ -4,8 +4,8 @@ catalogue = {
         'C': 20,
         'D': 15 }
 discounts = {
-        'A': { 'Quantity': 3, 'Amount': 20 },
-        'B': { 'Quantity': 2, 'Amount': 15 }}
+        'A': { 'quantity': 3, 'amount': 20 },
+        'B': { 'quantity': 2, 'amount': 15 }}
 
 def new():
     return []
@@ -22,7 +22,7 @@ def discount_for(item, basket):
         return 0
 
     count = len([1 for i in basket if i == item])
-    return (count / discount['Quantity']) * discount['Amount']
+    return (count / discount['quantity']) * discount['amount']
 
 def discount(basket):
     item_types = set(basket)
