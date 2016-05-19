@@ -14,5 +14,5 @@ def check_price(items, expected_price):
     assert price(items) == expected_price
 
 def price(items):
-    basket = reduce(scan, list(items), new())
+    basket = reduce(scan, items, new())
     return total(basket)
