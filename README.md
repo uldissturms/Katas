@@ -39,3 +39,10 @@ Bowling
 --------------------
 
 http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata
+
+
+Karate Chop
+-----------
+-----------
+
+http://codekata.com/kata/kata02-karate-chop/
