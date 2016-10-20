@@ -1,0 +1,20 @@
+{
+  "name": "checkout-js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "ava *.spec.js",
+    "test:watch": "npm test -- -w",
+    "lint": "standard"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "ava": "^0.16.0",
+    "standard": "^8.3.0"
+  },
+  "dependencies": {
+    "ramda": "^0.22.1"
+  }
+}
