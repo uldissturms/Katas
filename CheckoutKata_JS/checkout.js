@@ -27,12 +27,15 @@ const hasDiscount = R.pipe(R.prop('name'), R.flip(R.has)(discounts))
 const discountFor = ({name, count}) =>
   Math.floor(count / discounts[name].count) * discounts[name].amount
 
-const calculateDiscount = R.pipe(
+const getDiscounts = R.pipe(
   R.prop('items'),
   R.filter(hasDiscount),
   R.groupBy(R.prop('name')),
   R.mapObjIndexed(toSummary),
-  R.map(discountFor),
+  R.map(discountFor)
+)
+const sumDiscounts = R.pipe(
+  getDiscounts,
   R.values,
   R.sum
 )
@@ -40,7 +43,7 @@ const calculateDiscount = R.pipe(
 const priceItems = R.map(priceItem)
 const toBasket = items => ({items})
 const subTotal = basket => R.assoc('subTotal', sumByPrice(basket))(basket)
-const discount = basket => R.assoc('discount', calculateDiscount(basket))(basket)
+const discount = basket => R.assoc('discount', sumDiscounts(basket))(basket)
 const total = basket => R.assoc('total', basket.subTotal - basket.discount)(basket)
 
 module.exports = R.pipe(
